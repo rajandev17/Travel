@@ -29,6 +29,7 @@
 
         <activity
             android:name=".MapsActivity"
+            android:configChanges="orientation|screenSize|keyboard"
             android:label="@string/title_activity_maps">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
